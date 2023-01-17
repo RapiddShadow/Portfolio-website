@@ -8,13 +8,16 @@
 
 html,body{
     background-color: #fff;
-    padding: 10px;    
+    /* padding: 10px;     */
 }
 img{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
     display: inline-block;
+}
+.grid-wrapper{
+    padding: 10px;
 }
 .grid-wrapper > div{
     display: flex;
