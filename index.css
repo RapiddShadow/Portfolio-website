@@ -58,6 +58,7 @@ b{
     text-decoration: none;
     text-transform: capitalize;
 }
+
 .navItems li:hover a,
 .links a:hover{
     color: #7f00ff;
