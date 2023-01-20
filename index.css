@@ -122,6 +122,7 @@ b{
 }
 .cols0{
     z-index: 5 ;
+    text-align: justify;
 }
 .topline{
     display: block;
@@ -156,7 +157,7 @@ p{
     width: 100%;
     font-size: 15px;
     color: #3d535f;
-    text-align: justify;
+    /* text-align: justify; */
 
 }
 
