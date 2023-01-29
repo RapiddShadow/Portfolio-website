@@ -40,14 +40,24 @@ body{
 .skill-box{
     padding: 1rem;
     color: rgb(26, 21, 21);
-    
+    transform: scale(1.2);
+    font-size: 15px;
+
 }
+.skill-box:hover{
+    transition: 0.5s;
+}
+
 .skill-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
+    transition: 0.5s;
+}
+.skill-title:hover{
+    transform: scale(1.2)
 }
 
 
@@ -61,6 +71,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.5s;
+}
+.img:hover{
+    transform: scale(1.2);
 }
 
 .img:after{
