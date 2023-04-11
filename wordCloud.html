@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Cloud</title>
+    <!-- <link rel="stylesheet" href="navcss.css"> -->
+    <!-- <link rel="stylesheet" href="navcss.css"> -->
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="wordcloud.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+
+
+<style>
+    html{
+        cursor: url("SkyBlock_items_enchanted_stone_pickaxe.gif"),auto;
+    }
+</style>
+
+<body>
+    <a href="index.html" class="butt" style="text-align: center;">Home</a>
+
+    <section>
+   <div class="container">
+    <nav>
+        <!-- <div class="logo"> <a href="index.html"></a> home </div> -->
+        <!-- <ul class="navItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mySkills.html">Skills</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="videos.html">Projects</a></li>
+        </ul> -->
+        <!-- <div class="links">
+            <a href="https://www.linkedin.com/in/sid8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            
+        </div> -->
+    </nav>
+    <h1 class="head">Word Cloud Generator</h1>
+    <form id="sortA" method="post" class="baker">
+        <h4 class="heading" > I have created a word cloud generator below from scratch. This word cloud generator is running on the client side
+            and entire processing is happening on the client side without a backend. You can notice that the page is not refreshing when you click on
+            generate. To create a new word cloud refresh the page and give input again.
+        </h4>
+        <!-- <label for="input">I have created a word cloud generator below using just client side validation</label><br><br><br> -->
+        <input name="ArrayInput" type="text" id="input" placeholder="Enter maximum of 1500 characters to build a word cloud" class="hello1" size="40"> <br>
+        <br>
+     
+       
+          <input type="submit" class="btn" id="btn" value="Generate">
+          <div class="form-group hidden" id="error-container"> 
+             <div class="alert alert-danger text-goes-here"></div>
+          </div>
+       <div class="form-group hidden" id="result-container"> 
+          <div class="alert alert-success text-goes-here"></div>
+       </div>
+       <input name= '_method' value="PUT" hidden>
+       
+       </form> 
+       <div class="span">
+       <ul id="results" class="hello">
+    </div>
+       </ul>
+       <div class="hell">
+    </div>
+    </section>
+    <!-- <script>document.querySelectorAll('ul.hello a').forEach((i) => {i.style.setProperty('--size',i.dataset.weight);});</script> -->
+       <!-- <script> document.querySelectorAll('ul.ul').forEach((i) => {i.style.setProperty('--size',i.dataset.weight);});</script> -->
+
+       <script src="./clientSide.js"></script> 
+</body>
+</html>

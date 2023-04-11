@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    background-color: #f3f5f8;
+}
+/* .nav{
+  margin-left: 16%;
+} */
+body{
+    overflow:auto;
+}
+ul.hello {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+    margin-bottom: 10%;
+  }
+  ul.hello a {
+    /* color: #a33; */
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.125rem 0.25rem;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  ul.hello a {
+    --size: 4;
+    font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  }
+  li:nth-child(2n+1) { color: #181; }
+  li:nth-child(3n+1) { color: #33a; }
+  li:nth-child(4n+1) { color: #c38; }
+
+  ul.hello a {
+    opacity: calc((15 - (9 - var(--size))) / 15); 
+}
+.baker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .hello1 {
+    width: 100%;
+    height: 250px;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .span{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5%;
+
+  }
+  .span ul{
+    align-items: center;
+    text-align: center;
+  }
+  .span ul li{
+    align-items: center;
+    text-align: center;
+}
+.heading{
+  width: 90%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: justify;
+  align-content: center;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 200;
+  text-justify: auto;
+}
+.btn{
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 17px;
+  align-items: center;
+}
+.btn:hover {
+  background-color: #000000; /* Green */
+  color: white;
+}
+.head{
+  text-align: center;
+  margin-top: 5%;
+  font-weight: bold;
+  font-size: 3vw
+}
+.butt{
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  display: block;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+.butt:hover{
+  color: #7f00ff;
+}
+
+.hell{
+  text-align: center;
+  margin-bottom: 10%;
+  text-decoration: none;
+  list-style: none;
+  
+}
